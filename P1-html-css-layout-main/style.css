@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+  color: white;
+ 
+}
+  
+  
+nav {
+  position: fixed;/* Stel de positie vast op 'fixed' */
+  top:0;/* Plaats de navbar aan de bovenkant van het scherm */
+  width: 100%;
+  display: flex;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+  z-index: 100; /* Zorg ervoor dat de navbar boven andere elementen wordt weergegeven */
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+
+.text_over_image{
+  padding-top: 100px;
+   text-align: center;
+  color: white; 
+  font-size:3.0em;
+  margin: 0 0  100px 0;
+  
+}
+/* Voeg wat padding toe aan de body om de inhoud onder de vaste navbar te duwen */
+body{ 
+   margin: 0; /* Voeg margin: 0 toe om de standaard body-marge te verwijderen */
+  padding-top: 10vh; /* De hoogte van de navbar */
+  background-color: black;
+  background-image: url("img/background.jpeg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;}
+
+  section{ 
+          height:50vw;
+          width: 100vw;
+         }
+
+         
+
+  /* Style for the footer */
+footer {
+  background: #00a8c7; /* Same color as the navigation bar */
+  padding: 2rem;
+  text-align: center;
+  color: white;
+  font-weight: bold; /* Make the text in the footer bold */
+ position: fixed;
+ width: 100%;
+ bottom: 0;
+}
+ 
+@font-face{
+  font-family: Goldman;
+  src:url('Goldman-Regular.ttf')
+}
+@font-face{
+  font-family: Goldman-bold;
+  src:url('Goldman-Bold.ttf')
+}
+
+h1 {
+font-size: xx-large;
+font-weight: bold;
+
+}
+ img
+{
+  float: left;
+  margin-right:50px;
+  margin-left: 50px;
+}
+
+
