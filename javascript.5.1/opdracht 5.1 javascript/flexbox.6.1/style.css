@@ -1,0 +1,40 @@
+*{ padding:0 ;
+   margin:0;
+   box-sizing: border-box;
+}
+
+
+.flex-container{
+    
+    width: 1200PX;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+
+  
+}
+
+.item1{
+    width:200PX;
+    height:200PX;
+    background-color: blue;
+  
+}
+.item2{
+    width:200PX;
+    height:200PX;
+    background-color: black;
+    
+}
+.item3{
+    width:200PX;
+    height:200PX;
+    background-color:red;
+ 
+}
+.item4{
+    width:200PX;
+    height:200PX;
+    background-color:green;
+    
+}
