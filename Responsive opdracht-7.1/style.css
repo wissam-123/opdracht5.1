@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+ .content {
+    color: white;
+    height: 10vh;
+   }
+
+ .item1 {
+    height: 30vh;
+  }
+
+ .item2 {
+    height: 30vh;
+   }
+
+ .item3 {
+    height: 30vh;
+  }
+
+ .mobiel {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  display: none;
+  }
+
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    /* CSS for desktop screens */
+  .content{
+        background-color: red;}
+
+  .item1{
+    background-color: yellow;}
+
+  .item2{
+    background-color: orange;}
+
+  .item3{
+    background-color: #bcfe65;}
+  
+  .mobiel {
+    display: none;}
+  }
+    
+
+         /* Tablet Styles */
+@media (max-width: 1023px) and (min-width: 768px) {
+
+  .content {
+        background-color: #ff8799;
+        color: white;  
+        }
+  .item1{
+        background-color:red;
+        color: white;
+        }
+  .item2{ background-color: #4867b0;
+        color: white;
+          }
+  .item3{
+        background-color:blue;
+        color: white;
+        }
+  .mobiel {
+       display: none;
+      }
+   
+    }
+  
+   
+
+     /* Mobile Styles */
+  @media (max-width: 767px) {
+    /* CSS for mobile screens */
+  .content{
+    background-color:#4856b0 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+     }
+  .item1{ 
+    background-color:  #47c9bf;
+    color: white;
+     }
+  .item2{ background-color: #c242f5;
+    color: white;
+       }
+  .item3{ 
+    background-color:#231fe0 ;
+    color: white;
+    }
+  .mobiel {
+    display: inline-block;
+    }
+
+  }
